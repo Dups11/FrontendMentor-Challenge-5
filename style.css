@@ -189,7 +189,7 @@ body {
 
 /* Mobile View */
 
-@media  (max-width: 1000px) {
+@media  (max-width: 1100px) {
     .container {
         background: url(./images/bg-pattern-top-mobile.svg) no-repeat,
                 bottom right no-repeat url(./images/bg-pattern-bottom-mobile.svg);
