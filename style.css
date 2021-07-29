@@ -104,8 +104,10 @@ body {
 }
 
 .stars {
-    background: space url(./images/icon-star.svg);
-    height: 16px;
+    /* background: space url(./images/icon-star.svg); */
+    /* height: 16px; */
+    display: flex;
+    justify-content: space-between;
     width: 100px;
     margin: 0 32px;
 }
@@ -214,6 +216,7 @@ body {
     .rating-container {
         margin-top: 40px;
         margin-bottom: 50px;
+        padding: 0;
     }
 
     .testimonial-container {
@@ -221,9 +224,21 @@ body {
         margin-bottom: 84px;
     }
 
+    .rating{
+        flex-direction: column;
+        width: 326px;
+        height: 78px;
+        justify-content: space-around;
+        line-height: initial;
+    }
+
+    .testimonial {
+        padding: 32px 38px;
+        height: 248px;
+    }
+
     .rating, .testimonial, .presentation {
         align-self: center;
-        width: auto;
     }
         
     .testimonial1, .testimonial2, .testimonial3 {
